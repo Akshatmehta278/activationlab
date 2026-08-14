@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.sqlite3
+media/imports/*
+!media/imports/.gitkeep
+.git
+.env

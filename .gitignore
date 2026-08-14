@@ -1,0 +1,27 @@
+.env
+.DS_Store
+__pycache__/
+*.py[cod]
+backend/.venv/
+backend/db.sqlite3
+backend/media/imports/*
+!backend/media/imports/.gitkeep
+backend/staticfiles/
+frontend/node_modules/
+frontend/dist/
+.pytest_cache/
+.vscode/
+.idea/
+
+# Terraform local state
+infra/terraform/.terraform/
+infra/terraform/*.tfstate
+infra/terraform/*.tfstate.*
+infra/terraform/.terraform.lock.hcl
+infra/terraform/terraform.tfvars
+
+# Local logs / coverage
+*.log
+coverage/
+htmlcov/
+.coverage

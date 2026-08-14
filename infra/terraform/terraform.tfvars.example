@@ -1,0 +1,11 @@
+aws_region     = "us-east-1"
+project_name   = "activationlab"
+environment    = "demo"
+backend_image  = "123456789012.dkr.ecr.us-east-1.amazonaws.com/activationlab-backend:latest"
+frontend_image = "123456789012.dkr.ecr.us-east-1.amazonaws.com/activationlab-frontend:latest"
+
+# Do not commit real values. Prefer TF_VAR_* environment variables or a secure
+# Terraform workspace variable store.
+database_password = "replace-me"
+rabbitmq_password = "replace-me"
+django_secret_key = "replace-me"

@@ -1,0 +1,6 @@
+customer_id,email,first_name,last_name,lifetime_value,subscribed,tags
+cust-1001,ava@example.com,Ava,Shah,420.50,true,vip;repeat
+cust-1002,noah@example.com,Noah,Kim,88.00,true,new
+cust-1003,mia@example.com,Mia,Garcia,215.75,true,repeat
+cust-1004,liam@example.com,Liam,Brown,32.10,false,winback
+cust-1005,emma@example.com,Emma,Wilson,640.00,true,vip;high-value
